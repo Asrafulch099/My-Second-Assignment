@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+}
+nav{
+    padding: 20px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: ffffff;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.g-pink{
+    color: #f50097;
+}
+.nav-menu{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    list-style: none;
+    gap: 20px;
+    
+}
+.nav-li{
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+}
+.nav-li a{
+    color: #000;
+    text-decoration: none;
+}
+.h-icon{
+    display: flex;
+}
+button{
+    margin-top: -5px;
+    padding: 5px 25px;
+    background-color: e7e6e9;
+    border-radius: 5px;
+    border: none;
+}
+.fa-brands{
+    font-size: 20px;
+}
+#youtube{
+    color: #ff0000;
+}
+
+.nav-li a:hover{
+    color: #f50097;
+}
+
+
+/* --- Resposive --- */
+
+@media screen and (max-width: 576px) and (max-width: 992px){
+    nav{
+        padding: 20px;
+        flex-direction: column;
+        margin-bottom: 30px;
+        font-size: 10px;
+    }
+    .nav-menu{
+        align-items: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+}
