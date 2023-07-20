@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    ma66gin: 0px;
     font-family: 'Work Sans', sans-serif;
 }
 /* header */
@@ -83,6 +83,18 @@ main{
     -webkit-text-fill-color: transparent;
 
 }
+.r55{
+    margin-left: 270px;
+}
+.r66{
+    border-radius: 8px;
+border:   #FFF;
+width: 318.5px;
+position: relative;
+bottom: 120px;
+margin-left: 120px;
+}
+
 .bn-hd{
     font-size: 80px;
     font-weight: 900;
